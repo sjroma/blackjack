@@ -33,8 +33,10 @@ function handValue (hand) {
       }
     }
   }
+  //console.log(hand); //don't need this, shows the hand
 
   sum = hand.reduce((a, b) => a + b, 0);
+  console.log(hand,sum); //don't need this, shows hand and sum
   return sum;
 }
 
